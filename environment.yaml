@@ -1,0 +1,14 @@
+name: pytorch
+channels:
+  - pytorch
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64/
+  - defaults
+dependencies:
+  - pytorch=1.11
+  - numpy
+  - tqdm
+  - tensorboard
+  - tensorboardX
+  - matplotlib

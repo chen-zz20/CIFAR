@@ -14,10 +14,14 @@ CIFAR是由Alex Krizhevsky、Vinod Nair和Geoffrey Hinton收集而来，起初�
     *.py #代码文件
     Makefile
     README.md
+    environment.yaml
     .gitignore
 ```
 
 ## 环境配置
+```
+conda env create -f environment.yaml
+```
 
 ## 数据集获取
 ```
@@ -25,3 +29,8 @@ cd .
 make data
 ```
 
+## 运行
+```
+cd .
+python main.py --mode cifar10/cifar100
+```
